@@ -1,0 +1,27 @@
+import 'package:flutter/cupertino.dart';
+import 'package:landlord/data/model/bookmark_model.dart';
+import 'package:landlord/data/model/breaking_news_slider_model.dart';
+import 'package:landlord/data/model/category_model.dart';
+import 'package:landlord/data/model/cities_model.dart';
+import 'package:landlord/data/model/comments_model.dart';
+import 'package:landlord/data/model/country_model.dart';
+import 'package:landlord/data/model/dashboard_model.dart';
+import 'package:landlord/data/model/interested_topic.dart';
+import 'package:landlord/data/model/login_model.dart';
+import 'package:landlord/data/model/news_category_model.dart';
+import 'package:landlord/data/model/newsletter_model.dart';
+import 'package:landlord/data/model/post_comment_model.dart';
+import 'package:landlord/data/model/post_newsletter_model.dart';
+import 'package:landlord/data/model/registration_model.dart';
+import 'package:landlord/data/model/state_model.dart';
+import 'package:landlord/data/model/sub_category_model.dart';
+import 'package:landlord/data/model/user_model.dart';
+import 'package:landlord/data/model/vote_response_model.dart';
+import 'package:landlord/data/network/api/api_provider.dart';
+import 'package:landlord/pages/news_category/content/news_category_header.dart';
+import 'package:landlord/utils/global_state.dart';
+import '../../model/news_details_model.dart';
+import '../dio/generic_dio.dart';
+
+part 'repository_http_methods.dart';
+part 'repository_impl.dart';
